@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
         <link rel="stylesheet" href="styles/assets/css/aos.min.css">
         <link rel="stylesheet" href="styles/assets/css/baguetteBox.min.css">
+        <link rel="stylesheet" href="styles/assets/css/sets.css">
     </head>
     <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="57">
         <?php include 'header.php'; ?>
@@ -21,6 +22,17 @@
                         <hr>
                     </div>
                 </div>
+                <!-- Add sets into this container -->
+                <div class="set-container"> 
+                    <div class="set">
+                        Set 1 name
+                    </div>
+                    <div class="set">
+                        Set 2 name
+                    </div>
+                </div>
+                <!-- End of sets container -->
+                <button class="btn btn-primary btn-xl" type="button">Create a New Set</button> 
             </div>
         </header>
     </body>
