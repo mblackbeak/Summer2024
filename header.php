@@ -4,9 +4,9 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#about">Create</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">FLashCards</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sets.php">FLashCards</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">QUIzes</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php">Contact</a></li>
                 </ul>
             </div>
         </div>
