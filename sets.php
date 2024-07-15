@@ -32,7 +32,9 @@
                     </div>
                 </div>
                 <!-- End of sets container -->
-                <button class="btn btn-primary btn-xl" type="button">Create a New Set</button> 
+                 <a href="create_set.php"> 
+                    <button class="btn btn-primary btn-xl" type="button">Create a New Set</button> 
+                </a>
             </div>
         </header>
     </body>
