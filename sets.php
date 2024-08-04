@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <!-- Add sets into this container -->
-                <div class="set-container"> 
+                <div id="set-container"> 
                     <div class="set">
                         Set 1 name
                     </div>

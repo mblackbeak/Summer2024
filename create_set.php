@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="styles/assets/css/aos.min.css">
         <link rel="stylesheet" href="styles/assets/css/baguetteBox.min.css">
         <link rel="stylesheet" href="styles/assets/css/sets.css">
+        <link rel="stylesheet" href="styles/assets/css/term.css">
     </head>
     <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="57">
         <?php include 'header.php'; ?>
@@ -22,6 +23,17 @@
                         <hr>
                     </div>
                 </div>
+                <div id="term-container"> 
+                    <div class="term">
+                        Set 1 name
+                    </div>
+                    <div class="term">
+                        Set 2 name
+                    </div>
+                </div>
+                <a href="term.php"> 
+                     <button class="btn btn-primary btn-xl" type="button">Add Term</button>
+                </a>
             </div>
         </header>
 </html>
