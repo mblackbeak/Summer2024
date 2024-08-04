@@ -24,12 +24,21 @@
                     </div>
                 </div>
                 <div id="term-container"> 
-                    <div class="term">
-                        Set 1 name
-                    </div>
-                    <div class="term">
-                        Set 2 name
-                    </div>
+                    <form>
+                        <div class="term">
+                            <section class="term-align">
+                                <label for="term-in">Term:</label>
+                                <input type="text" id="term-in" name="term-in">
+                            </section>
+                            <section class="def-align">
+                                <label for="def-in">Definition:</label>
+                                <input type="text" id="def-in" name="def-in">
+                            </section>
+                        </div>
+                        <div class="term">
+                            Term
+                        </div>
+                    </form>
                 </div>
                 <a href="term.php"> 
                      <button class="btn btn-primary btn-xl" type="button">Add Term</button>

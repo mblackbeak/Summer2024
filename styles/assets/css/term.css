@@ -4,4 +4,17 @@
     padding: 0.5em;
     border: 0.1em solid #000000; 
     color: #000000;
+    height: auto;
+}
+label{
+    font-weight: bold;
+}
+.term-align{
+    float: left;
+    padding: 0;
+}
+.def-align{
+    float: right;
+    padding: 0;
+
 }
