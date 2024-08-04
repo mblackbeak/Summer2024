@@ -50,6 +50,10 @@
                 <a href="term.php"> 
                      <button class="btn btn-primary btn-xl" type="button">Add Term</button>
                 </a>
+                <br><br>
+                <a href="save.php"> 
+                     <button class="btn btn-primary btn-xl" type="button">Save</button>
+                </a>
             </div>
         </header>
 </html>
