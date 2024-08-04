@@ -36,7 +36,14 @@
                             </section>
                         </div>
                         <div class="term">
-                            Term
+                        <section class="term-align">
+                                <label for="term-in">Term:</label>
+                                <input type="text" id="term-in" name="term-in">
+                            </section>
+                            <section class="def-align">
+                                <label for="def-in">Definition:</label>
+                                <input type="text" id="def-in" name="def-in">
+                            </section>
                         </div>
                     </form>
                 </div>

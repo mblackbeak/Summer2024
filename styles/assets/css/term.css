@@ -4,17 +4,19 @@
     padding: 0.5em;
     border: 0.1em solid #000000; 
     color: #000000;
-    height: auto;
+    overflow: hidden; /* Clear the floats */
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-between; /* Space elements evenly */
 }
 label{
     font-weight: bold;
 }
 .term-align{
-    float: left;
-    padding: 0;
+    flex: 1; /* Take up available space */
+    padding: 0.5em;
 }
 .def-align{
-    float: right;
-    padding: 0;
+    flex: 1; /* Take up available space */
+    padding: 0.5em;
 
 }
